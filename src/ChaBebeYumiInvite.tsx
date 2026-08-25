@@ -13,7 +13,7 @@ function formatPhone(value: string) {
 }
 
 function getCountdown() {
-  const target = new Date("2026-09-05T15:00:00-03:00").getTime();
+  const target = new Date("2026-09-12T15:00:00-03:00").getTime();
   const diff = target - Date.now();
   if (diff <= 0) return "O chá de bebê já começou 💖";
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
