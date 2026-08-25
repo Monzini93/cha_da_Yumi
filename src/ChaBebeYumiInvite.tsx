@@ -196,7 +196,7 @@ export default function ChaBebeYumiInvite() {
               />
 
               <div>
-                <label className="mb-2 block text-sm font-medium text-slate-700">O que vai levar</label>
+                <label className="mb-2 block text-sm font-medium text-slate-700">Leve a sua bebida e um presentinho para a Yumi 🧡</label>
                 <textarea
                   rows={4}
                   value={bring}
