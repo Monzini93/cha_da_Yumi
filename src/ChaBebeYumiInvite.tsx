@@ -12,13 +12,6 @@ function formatPhone(value: string) {
   return `(${digits.slice(0, 2)}) ${digits.slice(2, 7)}-${digits.slice(7)}`;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function formatWhatsApp(number: string) {
-  const digits = number.replace(/\D/g, "");
-  if (digits.length !== 13) return `+${digits}`;
-  return `+${digits.slice(0, 2)} (${digits.slice(2, 4)}) ${digits.slice(4, 9)}-${digits.slice(9)}`;
-}
-
 function getCountdown() {
   const target = new Date("2026-09-05T15:00:00-03:00").getTime();
   const diff = target - Date.now();
