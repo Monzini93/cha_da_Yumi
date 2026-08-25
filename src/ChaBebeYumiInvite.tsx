@@ -28,7 +28,7 @@ export default function ChaBebeYumiInvite() {
   const [bring, setBring] = useState("");
   const [countdown, setCountdown] = useState(getCountdown());
 
-  const eventDate = "05/09/2026";
+  const eventDate = "12/09/2026";
   const eventTime = "15h";
   const eventAddress = "Rua João Ruel, 128";
   const mapUrl = "https://www.google.com/maps/search/?api=1&query=Rua+Jo%C3%A3o+Ruel%2C+128";
