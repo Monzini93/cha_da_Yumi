@@ -201,7 +201,7 @@ export default function ChaBebeYumiInvite() {
                   rows={4}
                   value={bring}
                   onChange={(e) => setBring(e.target.value)}
-                  placeholder="Ex.: docinhos, refrigerante, fraldas, prato salgado..."
+                  placeholder="Ex.: Confirme sua presença e diga o que vai levar"
                   className="w-full rounded-3xl border border-rose-100 bg-white px-4 py-3 text-sm outline-none transition focus:border-rose-200 focus:ring-4 focus:ring-rose-100"
                 />
               </div>
