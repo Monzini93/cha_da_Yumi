@@ -95,6 +95,7 @@ export default function ChaBebeYumiInvite() {
 
             <div className="relative mt-6 inline-flex items-center gap-2 rounded-full border border-rose-100 bg-rose-50 px-4 py-2 text-sm text-rose-500 shadow-sm">
               <span>🐻</span>
+              <span>✨</span>
               <span>🎀</span>
               <span>✨</span>
               <span>🧸</span>
